@@ -1,0 +1,1 @@
+C:\Users\adam\Documents\GitHub\JunketAdvisor\JunketAdvisorService\JunketAdvisorService\bin\Debug\JunketAdvisorService.exe.config
