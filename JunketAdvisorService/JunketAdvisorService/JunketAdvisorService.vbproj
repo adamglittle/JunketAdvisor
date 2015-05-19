@@ -85,6 +85,8 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConferenceReview.vb" />
+    <Compile Include="Conferences.vb" />
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -97,6 +99,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>JaDbDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="Members.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
