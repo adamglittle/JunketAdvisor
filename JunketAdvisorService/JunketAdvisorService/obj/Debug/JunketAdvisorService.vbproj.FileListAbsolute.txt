@@ -1,1 +1,12 @@
 C:\Users\adam\Documents\GitHub\JunketAdvisor\JunketAdvisorService\JunketAdvisorService\bin\Debug\JunketAdvisorService.exe.config
+C:\Users\adam\Documents\GitHub\JunketAdvisor\JunketAdvisorService\JunketAdvisorService\obj\Debug\JunketAdvisorService.Resources.resources
+C:\Users\adam\Documents\GitHub\JunketAdvisor\JunketAdvisorService\JunketAdvisorService\obj\Debug\JunketAdvisorService.vbproj.GenerateResource.Cache
+C:\Users\adam\Documents\GitHub\JunketAdvisor\JunketAdvisorService\JunketAdvisorService\bin\Debug\JaDb.mdf
+C:\Users\adam\Documents\GitHub\JunketAdvisor\JunketAdvisorService\JunketAdvisorService\bin\Debug\JaDb_log.ldf
+C:\Users\adam\Documents\GitHub\JunketAdvisor\JunketAdvisorService\JunketAdvisorService\bin\Debug\JunketAdvisorService.exe
+C:\Users\adam\Documents\GitHub\JunketAdvisor\JunketAdvisorService\JunketAdvisorService\bin\Debug\JunketAdvisorService.pdb
+C:\Users\adam\Documents\GitHub\JunketAdvisor\JunketAdvisorService\JunketAdvisorService\bin\Debug\JunketAdvisorService.xml
+C:\Users\adam\Documents\GitHub\JunketAdvisor\JunketAdvisorService\JunketAdvisorService\obj\Debug\JunketAdvisorService.exe
+C:\Users\adam\Documents\GitHub\JunketAdvisor\JunketAdvisorService\JunketAdvisorService\obj\Debug\JunketAdvisorService.xml
+C:\Users\adam\Documents\GitHub\JunketAdvisor\JunketAdvisorService\JunketAdvisorService\obj\Debug\JunketAdvisorService.pdb
+C:\Users\adam\Documents\GitHub\JunketAdvisor\JunketAdvisorService\JunketAdvisorService\obj\Debug\JunketAdvisorService.Form1.resources
