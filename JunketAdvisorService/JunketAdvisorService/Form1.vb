@@ -8,6 +8,7 @@ Imports System.Net
 Imports System.ServiceModel.Security
 Imports System.IdentityModel.Selectors
 Imports System.Web.Script.Serialization
+Imports System.Security
 
 
 
@@ -33,20 +34,44 @@ Public Class Form1
 
             host.Open()
 
+
+
+
         Catch ex As Exception
             MessageBox.Show(ex.Message)
         End Try
 
+        Dim thisMember As Member = fMembers.GetMember("bob@email.com")
+        thisMember.SetPassword("testpwd")
+
+        thisMember = fMembers.GetMember("bob@email.com")
+
+        If thisMember.CheckPassword("testpwd") Then
+            ' MessageBox.Show("worked")
+        End If
+        If thisMember.CheckPassword("testpwd1") Then
+            MessageBox.Show("worked")
+        End If
+
+
+        thisMember = New Member("adam1", "little", "altest@email.com", "")
+        fMembers.AddMember(thisMember)
 
 
     End Sub
 
     Public Class CustomUserNamePasswordValidator
         Inherits UserNamePasswordValidator
+        Private fMembers As New Members
         Public Overrides Sub Validate(userName As String, password As String)
             'Your logic to validate username/password
-            If userName <> password Then
-                Throw New FaultException("access denied")
+            Dim thisMember As Member = fMembers.GetMember(userName)
+            If thisMember Is Nothing Then
+                Throw New Authentication.AuthenticationException("access denied")
+
+            End If
+            If Not thisMember.CheckPassword(password) Then
+                Throw New Authentication.AuthenticationException("access denied")
             End If
         End Sub
     End Class
